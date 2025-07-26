@@ -44,7 +44,7 @@ public class TestUtil {
 
       thread.start();
     }
-
+    // TODO: This is the incorrect time, need to make sure all threads are inserted there batch and then log this time.
     logger.info("End Time  : " + ec.user.nowTimestamp);
     return recordNumber.get();
   }
